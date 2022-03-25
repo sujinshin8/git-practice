@@ -2,6 +2,6 @@ def max_value(numbers):
     """ This function returns the largest number
         in the list.
     """
-
-    if __name__ == "__main__":
-        print(max_value([1, 12, 2, 42, 8, 3]))
+    list_num = [1, 12, 2, 42, 8, 3]
+    max(list_num)
+    return list_num
