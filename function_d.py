@@ -3,5 +3,7 @@ def max_value(numbers):
         in the list.
     """
 
-    if __name__ == "__main__":
+    if numbers == [1,2,3,4]:
         print(max_value([1, 12, 2, 42, 8, 3]))
+    else:
+        print "merge conflict! CHAOS!!!"
