@@ -7,6 +7,12 @@ def silly_sum():
         the user enters 0, or
         the sum reaches or exceeds 1000
     """
+    user_input = input("Please enter a number")
+    sum = 0
+    sum += user_input
+    if user_input == 0 or sum == 0:
+        return sum 
+        
     pass
 
 
